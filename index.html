@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio de Nomel Lee Vianney</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Nomel Lee Vianney</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil">
+      <h2>Étudiant en RIT passionné par la cybersécurité</h2>
+      <p>Je me forme aux réseaux et à la sécurité informatique, et je construis mes premiers projets web.</p>
+      <a class="bouton" href="#projets">Voir mes projets</a>
+    </section>
+
+    <section id="apropos">
+  <img src="img/WhatsApp Image 2026-10-11 at 21.34.31.jpeg" alt="Photo de profil de Nomel Lee Vianney">
+  <div class="apropos-texte">
+    <h2>À propos</h2>
+    <p>Étudiant en Réseaux Informatique et Télécommunications, je me passionne pour la cybersécurité. J'apprends le développement web pour comprendre comment les sites fonctionnent, et donc comment les protéger. Mon objectif : devenir spécialiste en sécurité informatique.</p>
+  </div>
+</section>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <ul class="liste-competences">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+      <div class="grille-projets">
+        <article>
+          <img src="img/Portfolio moderne de Nomel Lee Smith.png" alt="Capture d'écran du projet 1 : portfolio personnel">
+          <h3>Portfolio personnel</h3>
+          <p>Ma page web responsive, réalisée en HTML5, CSS3, Bootstrap et JavaScript.</p>
+          <a href="#">Voir le projet</a>
+        </article>
+        <article>
+          <img src="img/WhatsApp Image 2026-10-11 at 21.08.17.jpeg" alt="Capture d'écran du projet 2 : guide de cybersécurité">
+          <h3>Guide de bonnes pratiques cyber</h3>
+          <p>Une page de conseils pour sécuriser ses mots de passe et ses comptes.</p>
+          <a href="#">Voir le projet</a>
+        </article>
+        <article>
+          <img src="img/WhatsApp Image 2026-10-11 at 21.08.16.jpeg" alt="Capture d'écran du projet 3 : site vitrine">
+          <h3>Site vitrine d'association</h3>
+          <p>Un site simple présentant les activités et les contacts d'une association.</p>
+          <a href="#">Voir le projet</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="form-contact">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+      <div id="form-message" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nomel Lee Smith — Tous droits réservés</p>
+  </footer>
+</body>
+</html>
